@@ -16,10 +16,10 @@ const (
 	ftpServer         = "192.168.31.243"
 	ftpUser           = "ftpuser"
 	ftpPass           = "ftpuser"
-	localFilePath     = "E:/workspace/go_dev/test/ftp_increment/up/file1.txt"
+	localFilePath     = "E:/workspace/go_dev/test/ftp_increment/uploaded/file1.txt"
 	remoteFilePath    = "/home/ftpuser/shared/file1.txt"
-	offsetFilePath    = "E:/workspace/go_dev/test/ftp_increment/up/last_uploaded_offset.txt" // 假设这是存储最后上传偏移量的文件
-	tempIncrementFile = "E:/workspace/go_dev/test/ftp_increment/up/increment.tmp"            // 增量数据的临时文件名
+	offsetFilePath    = "E:/workspace/go_dev/test/ftp_increment/uploaded/last_uploaded_offset.txt" // 假设这是存储最后上传偏移量的文件
+	tempIncrementFile = "E:/workspace/go_dev/test/ftp_increment/uploaded/increment.tmp"            // 增量数据的临时文件名
 )
 
 func main() {
